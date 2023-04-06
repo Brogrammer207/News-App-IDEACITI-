@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655630596644",
+    "project_id": "news-app-ca523",
+    "storage_bucket": "news-app-ca523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655630596644:android:b602096dbfbd34ed3b36b1",
+        "android_client_info": {
+          "package_name": "ideacitinews.bihar.localnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655630596644-9v15bp9bvbdistc79nffojqcu47b1ofn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5yNpY0xc_psIoWSB5-AS5MoC4wEGABnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655630596644-9v15bp9bvbdistc79nffojqcu47b1ofn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Maincolor"
+    tools:context=".Fragment.AboutUsFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AboutUs"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IDEACITI NEWS NETWORK is Leading News Channel in Bihar and Jharkhand.This News Channel is Registered with MCA and Udyam Aadhar.We are Publishing all News on our Digital News Platform .. YouTube/Webportal/Facebook/Digital Pdf Newspaper."
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/white">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

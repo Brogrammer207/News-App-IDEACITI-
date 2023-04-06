@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Maincolor"
+    tools:context=".NewsDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/mainimage"
+        android:src="@drawable/user"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titletextview"
+        android:text="Manish is "
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        android:layout_gravity="left">
+
+    </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/sharelayout">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/whatsappimage"
+                android:src="@drawable/whatsapp"
+                android:layout_weight="1">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebookimage"
+                android:src="@drawable/facebook"
+                android:layout_weight="1">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/instagramimage"
+                android:src="@drawable/instagram"
+                android:layout_weight="1">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twiterimage"
+                android:src="@drawable/twitter"
+                android:layout_weight="1">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white">
+
+        </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desctextview"
+        android:text="Manish is "
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_gravity="left">
+
+    </TextView>
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:src="@drawable/ads"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:layout_margin="8dp">-->
+
+<!--        </ImageView>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desctextview2"
+            android:text="Manish is "
+            android:textColor="@color/white"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:layout_gravity="left">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desctextview3"
+            android:text="Manish is "
+            android:textColor="@color/white"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:layout_gravity="left">
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

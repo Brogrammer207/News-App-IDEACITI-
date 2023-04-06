@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminApp.AddYoutubedata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_videotitle"
+        android:hint="Title Here"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_videourl"
+        android:layout_margin="10dp"
+        android:hint="URL Here"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/et_videoimage"
+        android:hint="Video Image Here"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+
+    </EditText>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_submitvideo"
+        android:text="Submit Video"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="5dp">
+
+    </Button>
+
+    </LinearLayout>
+</ScrollView>

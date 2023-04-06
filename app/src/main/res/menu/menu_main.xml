@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="होम" />
+        <item
+            android:id="@+id/nav_country"
+            android:icon="@drawable/india"
+            android:title="देश" />
+        <item
+            android:id="@+id/nav_world"
+            android:icon="@drawable/world"
+            android:title="दुनिया" />
+        <item
+            android:id="@+id/nav_cricket"
+            android:icon="@drawable/cricket"
+            android:title="क्रिकेट" />
+        <item
+            android:id="@+id/nav_politics"
+            android:icon="@drawable/politics"
+            android:title="पॉलिटिक्स" />
+        <item
+            android:id="@+id/nav_entertriment"
+            android:icon="@drawable/entertainment"
+            android:title="एंटरटेनमेंट" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="प्रोफाइल सेटिंग" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/home"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_call"
+            android:title="Contact Us " />
+        <item
+            android:id="@+id/nav_privcypolicy"
+            android:icon="@drawable/setting"
+            android:title="Privacy Policy" />
+    </group>
+</menu>
